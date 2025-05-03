@@ -27,11 +27,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&none  &kp N1      &kp BSPC  &kp DEL    &kp LGUI  &kp N5  &tog 1                                                   &mo 3      &kp N6     &none      &kp ENTER  &none     &kp N0      &none
-&none  &kp Q       &kp W     &kp F      &kp P     &kp B   &none                                                    &none      &kp MINUS  &kp J      &kp L      &kp U     &kp Y       &none
-&none  &kp A       &kp R     &kp S      &kp T     &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp MINUS  &kp M      &kp N      &kp E     &kp I       &none
-&none  &kp Z       &kp X     &kp C      &kp D     &kp V                        &kp HOME      &kp PG_UP                        &kp MINUS  &kp MINUS  &kp H      &kp O     &kp K       &none
-&none  &kp LSHIFT  &kp LALT  &kp LCTRL  &kp ESC           &kp BSPC  &mo 1      &kp END       &kp PG_DN  &mo 2      &kp SPACE             &none      &kp RCTRL  &kp RALT  &kp RSHIFT  &none
+&none  &kp N1      &kp BSPC  &kp LGUI   &kp DELETE  &kp N5  &tog 1                                                   &mo 3      &kp N6     &none      &kp RGUI   &kp ENTER  &kp N0      &none
+&none  &kp Q       &kp W     &kp F      &kp P       &kp B   &none                                                    &none      &kp MINUS  &kp J      &kp L      &kp U      &kp Y       &none
+&none  &kp A       &kp R     &kp S      &kp T       &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp MINUS  &kp M      &kp N      &kp E      &kp I       &none
+&none  &kp Z       &kp X     &kp C      &kp D       &kp V                        &kp HOME      &kp PG_UP                        &kp MINUS  &kp MINUS  &kp H      &kp O      &kp K       &none
+&none  &kp LSHIFT  &kp LALT  &kp LCTRL  &kp ESC             &kp BSPC  &mo 1      &kp END       &kp PG_DN  &mo 2      &kp SPACE             &none      &kp RCTRL  &kp RALT   &kp RSHIFT  &none
             >;
         };
 
