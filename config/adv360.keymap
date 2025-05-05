@@ -27,33 +27,33 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&none  &kp N1      &kp ESC   &kp LGUI   &none      &none  &tog 1                                                   &mo 3      &none      &none      &kp RGUI   &kp TAB   &kp N0      &none
-&none  &kp Q       &kp W     &kp F      &kp P      &kp B  &none                                                    &none      &kp MINUS  &kp J      &kp L      &kp U     &kp Y       &none
-&none  &kp A       &kp R     &kp S      &kp T      &kp G  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp MINUS  &kp M      &kp N      &kp E     &kp I       &none
-&none  &kp Z       &kp X     &kp C      &kp D      &kp V                       &kp HOME      &kp PG_UP                        &kp MINUS  &kp MINUS  &kp H      &kp O     &kp K       &none
-&none  &kp LSHIFT  &kp LALT  &kp LCTRL  &kp ENTER         &kp BSPC  &mo 1      &kp END       &kp PG_DN  &mo 2      &kp SPACE             &none      &kp RCTRL  &kp RALT  &kp RSHIFT  &none
+&none  &none       &kp ESC   &kp LGUI   &none      &none  &none                                                    &none      &none  &none  &kp RGUI   &kp TAB   &none       &none
+&none  &kp Q       &kp W     &kp F      &kp P      &kp B  &none                                                    &none      &none  &kp J  &kp L      &kp U     &kp Y       &none
+&none  &kp A       &kp R     &kp S      &kp T      &kp G  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &none  &kp M  &kp N      &kp E     &kp I       &none
+&none  &kp Z       &kp X     &kp C      &kp D      &kp V                       &kp HOME      &kp PG_UP                        &none  &none  &kp H      &kp O     &kp K       &none
+&none  &kp LSHIFT  &kp LALT  &kp LCTRL  &kp ENTER         &kp BSPC  &mo 1      &kp END       &kp PG_DN  &mo 2      &kp SPACE         &none  &kp RCTRL  &kp RALT  &kp RSHIFT  &none
             >;
         };
 
         keypad {
             display-name = "Kp";
             bindings = <
-&none  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                                   &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &none
-&none  &kp Q   &kp W   &kp E   &kp R   &kp T   &none                                                    &none      &none   &none       &kp MINUS     &kp PLUS       &kp ASTERISK     &none
-&none  &kp A   &kp S   &kp D   &kp F   &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &none   &kp LEFT    &kp DOWN      &kp UP         &kp RIGHT        &none
-&none  &kp Z   &kp X   &kp C   &kp V   &kp B                        &kp HOME      &kp PG_UP                        &none   &none       &kp SLASH     &kp BACKSLASH  &kp PIPE         &none
-&none  &none   &none   &none   &none           &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &none       &kp PERIOD    &kp COMMA      &none            &none
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans                                                   &trans     &trans  &trans    &kp SQT     &kp DOUBLE_QUOTES  &trans        &trans
+&trans  &kp Q   &kp W   &kp E   &kp R   &kp T   &trans                                                   &trans     &trans  &trans    &kp MINUS   &kp PLUS           &kp ASTERISK  &trans
+&trans  &kp A   &kp S   &kp D   &kp F   &kp G   &trans    &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &trans     &trans  &kp LEFT  &kp DOWN    &kp UP             &kp RIGHT     &trans
+&trans  &kp Z   &kp X   &kp C   &kp V   &kp B                        &kp HOME      &kp PG_UP                        &trans  &trans    &kp SLASH   &kp BACKSLASH      &kp PIPE      &trans
+&trans  &trans  &trans  &trans  &trans          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &trans    &kp PERIOD  &kp COMMA          &trans        &trans
             >;
         };
 
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2         &kp F3      &kp F4   &kp F5     &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &kp N1         &kp N2      &kp N3   &kp N4     &kp N5  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &kp BACKSPACE  &kp DELETE  &kp TAB  &kp ENTER  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &kp N6         &kp N7      &kp N8   &kp N9     &kp N0                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans         &trans      &trans   &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&kp F1  &kp F2         &kp F3      &kp F4    &kp F5     &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &kp N1         &kp N2      &kp N3    &kp N4     &kp N5  &trans                                      &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &kp BACKSPACE  &kp DELETE  &kp TAB   &kp ENTER  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &kp N6         &kp N7      &kp N8    &kp N9     &kp N0                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
+&trans  &kp LPAR       &kp RPAR    &kp LBRC  &kp RBRC           &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
             >;
         };
 
