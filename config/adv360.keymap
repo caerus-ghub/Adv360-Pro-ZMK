@@ -57,22 +57,22 @@
         mod {
             display-name = "Mod";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &kp LCTRL  &kp AMPS   &kp DLLR   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp DLLR  &kp EXCL   &kp QMARK  &kp TILDE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans    &kp AT     &kp HASH   &kp SEMI   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans     &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &kp LCTRL  &kp AMPS   &kp DOLLAR  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp EXCL   &kp QMARK  &kp COLON   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &kp AT     &kp HASH   &kp SEMI    &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &trans     &trans      &trans
             >;
         };
 
         extra1 {
             display-name = "Red";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &kp LCTRL  &kp AMPS   &kp DLLR   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp DLLR  &kp EXCL   &kp QMARK  &kp TILDE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans    &kp AT     &kp HASH   &kp SEMI   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans     &trans     &trans     &trans
+&trans  &trans            &trans             &trans         &trans            &trans   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1            &kp F2             &kp F3         &kp F4            &kp F5   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans             &trans         &trans            &trans   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F6            &kp F7             &kp F8         &kp F9            &kp F10                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN           &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
