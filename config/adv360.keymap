@@ -67,7 +67,13 @@
 
         extra1 {
             display-name = "Red";
-            status = "reserved";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans    &kp LCTRL  &kp AMPS   &kp DLLR   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp DLLR  &kp EXCL   &kp QMARK  &kp TILDE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans    &kp AT     &kp HASH   &kp SEMI   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans    &trans     &trans     &trans     &trans
+            >;
         };
 
         extra2 {
