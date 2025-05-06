@@ -24,11 +24,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&none  &none     &kp ESC     &kp LGUI   &none      &none  &none                                                    &none      &none  &none  &kp RGUI   &kp TAB     &none     &none
-&none  &kp Q     &kp W       &kp F      &kp P      &kp B  &none                                                    &none      &none  &kp J  &kp L      &kp U       &kp Y     &none
-&none  &kp A     &kp R       &kp S      &kp T      &kp G  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &none  &kp M  &kp N      &kp E       &kp I     &none
-&none  &kp Z     &kp X       &kp C      &kp D      &kp V                       &kp HOME      &kp PG_UP                        &none  &none  &kp H      &kp O       &kp K     &none
-&none  &kp LALT  &kp LSHIFT  &kp LCTRL  &kp ENTER         &kp BSPC  &mo 1      &kp END       &kp PG_DN  &mo 2      &kp SPACE         &none  &kp RCTRL  &kp RSHIFT  &kp RALT  &none
+&none  &none     &kp ESC     &kp LGUI   &none      &none  &none                                                 &none  &none  &none  &kp RGUI   &kp TAB     &none     &none
+&none  &kp Q     &kp W       &kp F      &kp P      &kp B  &none                                                 &none  &none  &kp J  &kp L      &kp U       &kp Y     &none
+&none  &kp A     &kp R       &kp S      &kp T      &kp G  &none  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none  &none  &kp M  &kp N      &kp E       &kp I     &none
+&none  &kp Z     &kp X       &kp C      &kp D      &kp V                    &kp HOME      &kp PG_UP                    &none  &none  &kp H      &kp O       &kp K     &none
+&none  &kp LALT  &kp LSHIFT  &kp LCTRL  &kp ENTER         &mo 1  &mo 3      &kp END       &kp PG_DN  &mo 4      &mo 2         &none  &kp RCTRL  &kp RSHIFT  &kp RALT  &none
             >;
         };
 
@@ -46,11 +46,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2         &kp F3      &kp F4    &kp F5     &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &kp N1         &kp N2      &kp N3    &kp N4     &kp N5  &trans                                      &trans  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &kp BACKSPACE  &kp DELETE  &kp TAB   &kp ENTER  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &kp N6         &kp N7      &kp N8    &kp N9     &kp N0                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &kp LPAR       &kp RPAR    &kp LBRC  &kp RBRC           &trans  &mo 3   &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&trans  &trans         &trans      &trans     &trans     &trans   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1         &kp N2      &kp N3     &kp N4     &kp N5   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp BACKSPACE  &kp DELETE  &kp ENTER  &kp SPACE  &kp TAB  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N6         &kp N7      &kp N8     &kp N9     &kp N0                   &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LPAR       &kp RPAR    &kp LBRC   &kp RBRC            &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
