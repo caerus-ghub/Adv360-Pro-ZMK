@@ -24,29 +24,29 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&none  &none     &kp ESC     &kp LGUI   &none      &none  &none                                                 &none  &none  &none  &kp RGUI   &kp SPACE   &none     &none
-&none  &kp Q     &kp W       &kp F      &kp P      &kp B  &none                                                 &none  &none  &kp J  &kp L      &kp U       &kp Y     &none
-&none  &kp A     &kp R       &kp S      &kp T      &kp G  &none  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none  &none  &kp M  &kp N      &kp E       &kp I     &none
-&none  &kp Z     &kp X       &kp C      &kp D      &kp V                    &kp HOME      &kp PG_UP                    &none  &none  &kp H      &kp O       &kp K     &none
-&none  &kp LALT  &kp LSHIFT  &kp LCTRL  &kp ENTER         &mo 3  &mo 1      &kp END       &kp PG_DN  &mo 2      &mo 4         &none  &kp RCTRL  &kp RSHIFT  &kp RALT  &none
+&none  &none     &kp SPACE   &kp LGUI   &none    &none  &none                                                 &none  &none  &none  &kp RGUI   &kp SPACE   &none     &none
+&none  &kp Q     &kp W       &kp F      &kp P    &kp B  &none                                                 &none  &none  &kp J  &kp L      &kp U       &kp Y     &none
+&none  &kp A     &kp R       &kp S      &kp T    &kp G  &none  &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none  &none  &kp M  &kp N      &kp E       &kp I     &none
+&none  &kp Z     &kp X       &kp C      &kp D    &kp V                    &kp HOME      &kp PG_UP                    &none  &none  &kp H      &kp O       &kp K     &none
+&none  &kp LALT  &kp LSHIFT  &kp LCTRL  &kp ESC         &mo 3  &mo 1      &kp END       &kp PG_DN  &mo 2      &mo 4         &none  &kp RCTRL  &kp RSHIFT  &kp RALT  &none
             >;
         };
 
         keypad {
             display-name = "Kp";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp GRAVE  &kp SQT    &kp DOUBLE_QUOTES  &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp EQUAL  &kp MINUS  &kp PLUS           &kp ASTERISK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN   &kp UP             &kp RIGHT     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans     &kp DOT    &kp COMMA          &kp COLON     &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans     &kp FSLH   &kp BSLH           &kp PIPE      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans     &kp RGUI          &kp RSHIFT         &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp ASTERISK  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT   &kp DOWN          &kp UP             &kp RIGHT     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans     &kp DOT           &kp COMMA          &kp COLON     &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans     &kp FSLH          &kp BSLH           &kp PIPE      &trans
             >;
         };
 
         fn {
             display-name = "Fn";
             bindings = <
-&trans  &trans         &trans      &trans     &trans     &trans   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &kp LSHIFT  &kp LWIN   &trans     &trans   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N1         &kp N2      &kp N3     &kp N4     &kp N5   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp BACKSPACE  &kp DELETE  &kp SPACE  &kp ENTER  &kp TAB  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N6         &kp N7      &kp N8     &kp N9     &kp N0                   &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -57,22 +57,22 @@
         mod {
             display-name = "Mod";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans      &trans         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &kp TILDE  &kp DOLLAR  &kp AMPERSAND  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp EXCL   &kp QMARK   &kp COLON      &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &kp AT     &kp HASH    &kp SEMI       &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &trans      &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans       &trans      &trans         &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp CARET    &kp DOLLAR  &kp AMPERSAND  &kp TILDE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp PERCENT  &kp EXCL    &kp QMARK      &kp COLON  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans       &kp AT      &kp HASH       &kp SEMI   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans       &trans      &trans         &trans     &trans
             >;
         };
 
         extra1 {
             display-name = "Red";
             bindings = <
-&trans  &trans            &trans             &trans         &trans            &trans   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F1            &kp F2             &kp F3         &kp F4            &kp F5   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans            &trans             &trans         &trans            &trans   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp F6            &kp F7             &kp F8         &kp F9            &kp F10                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN           &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &trans             &trans         &trans            &trans        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1            &kp F2             &kp F3         &kp F4            &kp F5        &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans            &kp EQUAL          &kp MINUS      &kp PLUS          &kp ASTERISK  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F6            &kp F7             &kp F8         &kp F9            &kp F10                       &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN                &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
